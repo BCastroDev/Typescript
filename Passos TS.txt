@@ -1,4 +1,28 @@
+**** A ordem dos comandos é importante *****
+
 yarn init -y
 
 yarn add express
+
+
+
+
+Trazer o autocomplete/biblioteca do TS:
+@Types/express -D
+
+
+
+
+Converter TS para JS:
+
+1. yarn add typescript -d        //d minusculo
+2. yarn tsc --init
+
+
+Mude em tsconfig.json:
+    "outDir": "./dist",   // assim ele ira gerar os JS na pasta a parte 
+
+para converter em si:
+yarn tsc     //irá gerar um JS
+
 
